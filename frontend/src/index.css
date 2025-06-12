@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-sider {
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1); /* shadow bên phải */
+  z-index: 10;
+}
