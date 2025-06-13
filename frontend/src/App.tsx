@@ -6,16 +6,16 @@ import Header from './components/Header';
 function App() {
   return (
     <Layout style={{ backgroundColor: '#FFFFFF' }}>
-      {/* <Sider breakpoint="lg" collapsedWidth={'0'}>
-        <Menu
-          mode="inline"
-          defaultSelectedKeys={['1']}
-          defaultOpenKeys={['sub1']}
-          style={{ height: '100%', borderRight: 0 }}
-          items={items2}
-        />
-      </Sider> */}
       <Sidebar />
+      <Layout
+        style={{
+          backgroundColor: '#FFFFFF',
+          width: '100%',
+          padding: '16px 24px',
+        }}
+      >
+        <Header />
+      </Layout>
     </Layout>
   );
 }

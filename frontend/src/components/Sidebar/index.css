@@ -1,0 +1,33 @@
+.custom-ant-menu {
+  .ant-menu-submenu-title {
+    width: 100%;
+    padding: 8px 12px !important;
+    margin: 0px !important;
+    height: 38px;
+    transition: background-color 0.2s;
+
+    .ant-menu-title-content {
+      margin-left: 8px;
+    }
+  }
+
+  .ant-menu-submenu-open > .ant-menu-submenu-title {
+    background-color: rgba(47, 43, 61, 0.08);
+  }
+
+  .ant-menu-sub {
+    width: 100%;
+    background-color: transparent !important;
+  }
+
+  .ant-menu-item {
+    width: 100%;
+    margin: 0px !important;
+    padding: 8px 12px !important;
+    height: 38px;
+
+    .ant-menu-title-content {
+      margin-left: 8px;
+    }
+  }
+}
