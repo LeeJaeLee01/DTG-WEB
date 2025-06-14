@@ -1,0 +1,87 @@
+.ant-table-thead > tr > th {
+  background-color: transparent !important;
+  border-radius: 0px !important;
+}
+
+.ant-table-thead .ant-table-cell {
+  font-weight: 500 !important;
+  font-size: 13px !important;
+  line-height: 24px !important;
+  color: #2f2b3de5 !important;
+}
+
+.ant-table-thead .ant-table-cell::before {
+  width: 2px !important;
+  background-color: #2f2b3d1f !important;
+  height: 14px !important;
+}
+
+.ant-table-footer {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.ant-table-thead > tr > th:first-child,
+.ant-table-tbody > tr > td:first-child {
+  padding-left: 24px !important;
+}
+
+.ant-table-thead > tr > th {
+  padding-left: 24px !important;
+}
+
+.ant-table-thead > tr > th {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+.ant-table-thead > tr > th:last-child,
+.ant-table-tbody > tr > td:last-child {
+  padding-right: 24px !important;
+}
+
+.ant-table-tbody > tr > td {
+  padding-left: 24px !important;
+}
+
+.ant-table-footer {
+  background-color: transparent !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+.ant-table-cell {
+  padding: 0px !important;
+}
+
+.ant-pagination-item {
+  border: none !important;
+  background-color: #2f2b3d14 !important;
+  font-weight: 400 !important;
+  font-size: 13px !important;
+  line-height: 20px !important;
+  color: #2f2b3de5 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.ant-pagination-item-active {
+  background-color: #7367f0 !important;
+}
+
+.ant-pagination-item-active a {
+  color: white !important;
+}
+
+.ant-pagination-item:hover {
+  background-color: #7367f04d !important;
+}
+
+.ant-select-tree-treenode .ant-select-tree-switcher {
+  display: none;
+}
+
+.ant-table-row {
+  height: 51px !important;
+}

@@ -10,7 +10,7 @@ import SearchIcon from '../icons/SearchIcon';
 
 export default function Header() {
   return (
-    <div className="px-6 py-2 flex flex-row justify-between items-center shadow-[0_2px_8px_0_rgba(47,43,61,0.12)] rounded-md">
+    <div className="px-6 py-2 flex flex-row justify-between items-center shadow-[0_2px_8px_0_rgba(47,43,61,0.12)] rounded-md h-[56px]">
       <div className="flex flex-row items-center gap-4">
         <SearchIcon />
         <Input
@@ -20,16 +20,23 @@ export default function Header() {
         />
       </div>
       <div className="flex flex-row items-center gap-4">
-        <LanguageIcon />
-        <MoonStarsIcon />
-        <GridAddIcon />
-        <div className="relative w-[24px] h-[24px]">
+        <div className="cursor-pointer">
+          <LanguageIcon />
+        </div>
+        <div className="cursor-pointer">
+          <MoonStarsIcon />
+        </div>
+        <div className="cursor-pointer">
+          <GridAddIcon />
+        </div>
+
+        <div className="relative w-[24px] h-[24px] cursor-pointer">
           <BellIcon />
           <div className="absolute top-0 right-0">
             <RedDotIcon />
           </div>
         </div>
-        <div className="relative w-[38px] h-[38px]">
+        <div className="relative w-[38px] h-[38px] cursor-pointer">
           <Image
             src="/avatar.png"
             width={'38px'}
