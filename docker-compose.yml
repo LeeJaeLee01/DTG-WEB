@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  dtg-web-fe:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    networks:
+      - network
+  dtg-web-be:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "3030:3030"
+    restart: unless-stopped
+    networks:
+      - network
+
+networks:
+  network:
